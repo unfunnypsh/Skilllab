@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <h1>Shopping Cart</h1>
+      <div class="search-bar">
+        <input type="text" placeholder="Search...">
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="sidebar">
+      <h2>Categories</h2>
+      <ul>
+        <li>All</li>
+        <li>Electronics</li>
+        <li>Fashion</li>
+        <li>Grocery</li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <div class="product-card">
+        <img src="https://th.bing.com/th/id/OIP.i4X2-NCPB2pVIXYpuTlEVAHaLT?w=136&h=207&c=7&r=0&o=5&dpr=1.3&pid=1.7 " alt="Product 1">
+        <h3>NIKE Tshirt</h3>
+        <p>Designed with our classic fit and everyday cotton fabric, the Nike...</p>
+        <p>Rs.1299</p>
+        <p>4.2/5 ratings</p>
+        <div class="quantity">
+          <button class="decrement">-</button>
+          <input type="text" value="1">
+          <button class="increment">+</button>
+        </div>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+<div class="product-card">
+  <img src="https://th.bing.com/th/id/OIP.TMprJ0iFWUN06nXwR94VJgHaHa?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Product 2">
+  <h3>HP 15 Laptop</h3>
+  <p>The HP 15 laptop is an excellent all-purpose laptop for everyday tasks. It boats...</p>
+  <p>Rs.75000</p>
+  <p>4.0/5 ratings</p>
+  <div class="quantity">
+      <button class="decrement">-</button>
+      <input type="text" value="1">
+      <button class="increment">+</button>
+  </div>
+  <button class="add-to-cart">Add to Cart</button>
+</div>
+
+<div class="product-card">
+  <img src="https://th.bing.com/th/id/OIP.gb_0KRXKbje6wkU2h4hvPgHaHa?w=187&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Product 3">
+  <h3>Mysore Sandal soap</h3>
+  <p>Mysore Sandal Soap is made from vegetable oils, contains pure natural Mysore sandalwood oil...</p>
+  <p>Rs.220</p>
+  <p>4.4/5 ratings</p>
+  <div class="quantity">
+      <button class="decrement">-</button>
+      <input type="text" value="1">
+      <button class="increment">+</button>
+  </div>
+  <button class="add-to-cart">Add to Cart</button>
+  <aside class="cart">
+    <h2>Shopping Cart</h2>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+      <p>Total Items: <span id="total-items">0</span></p>
+      <p>Total: Rs.<span id="total-price">0.00</span></p>
+    </div>
+  </aside>
+</div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
